@@ -1,1 +1,135 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="470" viewBox="0 0 1120 470" font-family="Segoe UI,Helvetica,sans-serif"><rect width="1120" height="470" fill="#0a0f1a" rx="12"/><rect x="40" y="60" width="190" height="84" rx="10" fill="#0d1424" stroke="#F97316" stroke-opacity="0.8"/><text x="52" y="80" font-size="12" font-weight="600" fill="#f0f6fc">Mobile PWA — Next.js</text><text x="52" y="95" font-size="10"  fill="#c9d1d9" opacity="0.85">Camera capture · Voice (MediaRecorder)</text><text x="52" y="110" font-size="10"  fill="#c9d1d9" opacity="0.85">BM / EN interface</text><rect x="290" y="52" width="230" height="100" rx="10" fill="#0d1424" stroke="#FDBA74" stroke-opacity="0.8"/><text x="302" y="72" font-size="12" font-weight="600" fill="#f0f6fc">API layer — Vercel</text><text x="302" y="87" font-size="10"  fill="#c9d1d9" opacity="0.85">POST /api/analyze (job)</text><text x="302" y="102" font-size="10"  fill="#c9d1d9" opacity="0.85">GET /api/analyze/:id (poll)</text><text x="302" y="117" font-size="10"  fill="#c9d1d9" opacity="0.85">POST /api/voice · GET /api/weekly</text><rect x="580" y="40" width="220" height="52" rx="10" fill="#101827" stroke="#F97316" stroke-opacity="0.8"/><text x="592" y="60" font-size="12" font-weight="600" fill="#f0f6fc">SAM 3.1</text><text x="592" y="75" font-size="10"  fill="#c9d1d9" opacity="0.85">plate → dish masks → crops</text><rect x="580" y="122" width="220" height="76" rx="10" fill="#101827" stroke="#F97316" stroke-opacity="0.8"/><text x="592" y="142" font-size="12" font-weight="600" fill="#f0f6fc">Muse Spark 1.3 — ORCHESTRATOR</text><text x="592" y="157" font-size="10"  fill="#c9d1d9" opacity="0.85">food ID (visual CoT) vs SEA DB</text><text x="592" y="172" font-size="10"  fill="#c9d1d9" opacity="0.85">explanations · citations (BM/EN)</text><rect x="580" y="228" width="220" height="52" rx="10" fill="#1a0f0d" stroke="#f85149" stroke-opacity="0.8"/><text x="592" y="248" font-size="12" font-weight="600" fill="#ffebe9">Guardrail — advice-detector</text><text x="592" y="263" font-size="10"  fill="#c9d1d9" opacity="0.85">rewrite or refuse</text><rect x="850" y="46" width="230" height="56" rx="10" fill="#0f1a12" stroke="#2ea44f" stroke-opacity="0.8"/><text x="862" y="66" font-size="12" font-weight="600" fill="#e6f2ea">Nutrient engine — deterministic TS</text><text x="862" y="81" font-size="10"  fill="#e6f2ea" opacity="0.85">DB values × portion · ZERO LLM</text><rect x="850" y="132" width="230" height="68" rx="10" fill="#0f1a12" stroke="#2ea44f" stroke-opacity="0.8"/><text x="862" y="152" font-size="12" font-weight="600" fill="#e6f2ea">SEA food DB — 20 verified dishes</text><text x="862" y="167" font-size="10"  fill="#e6f2ea" opacity="0.85">per-serving values · sources cited</text><text x="862" y="182" font-size="10"  fill="#e6f2ea" opacity="0.85">unknown stays unknown</text><rect x="850" y="228" width="230" height="52" rx="10" fill="#101827" stroke="#F97316" stroke-opacity="0.8"/><text x="862" y="248" font-size="12" font-weight="600" fill="#f0f6fc">Muse Voice Transcribe</text><text x="862" y="263" font-size="10"  fill="#c9d1d9" opacity="0.85">BM/EN meal voice-logs</text><rect x="290" y="260" width="230" height="68" rx="10" fill="#0d1117" stroke="#8b949e" stroke-opacity="0.8"/><text x="302" y="280" font-size="12" font-weight="600" fill="#e6edf3">Supabase — Postgres (meals, items,</text><text x="302" y="295" font-size="10"  fill="#c9d1d9" opacity="0.85">corrections, summaries) · RLS · Storage</text><rect x="40" y="260" width="190" height="68" rx="10" fill="#0d1117" stroke="#8b949e" stroke-opacity="0.8"/><text x="52" y="280" font-size="12" font-weight="600" fill="#e6edf3">Eval harness — GitHub Actions</text><text x="52" y="295" font-size="10"  fill="#c9d1d9" opacity="0.85">25-meal benchmark → accuracy report</text><rect x="580" y="310" width="220" height="52" rx="10" fill="#101827" stroke="#F97316" stroke-opacity="0.8"/><text x="592" y="330" font-size="12" font-weight="600" fill="#f0f6fc">Fireworks — Muse Spark Open</text><text x="592" y="345" font-size="10"  fill="#c9d1d9" opacity="0.85">open-weights lane ($10K flag)</text><rect x="40" y="396" width="1040" height="40" rx="10" fill="#1a0f0d" stroke="#F97316" stroke-opacity="0.8"/><text x="52" y="416" font-size="12" font-weight="600" fill="#FDBA74">COMPLIANCE: documentation tool — informational notes only · every summary ends with dietitian questions · never medical advice</text><path d="M230 102.0 L290 102.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="290" cy="102.0" r="3" fill="#F97316"/><text x="260.0" y="96.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">photo</text><path d="M520 102.0 C560 102.0 540 66.0 580 66.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="580" cy="66.0" r="3" fill="#F97316"/><text x="550.0" y="78.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">job</text><path d="M800 66.0 C840 66.0 540 160.0 580 160.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="580" cy="160.0" r="3" fill="#F97316"/><text x="690.0" y="107.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">crops</text><path d="M800 160.0 C840 160.0 810 74.0 850 74.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="850" cy="74.0" r="3" fill="#F97316"/><text x="825.0" y="111.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">dishes</text><path d="M1080 74.0 C1120 74.0 810 166.0 850 166.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="850" cy="166.0" r="3" fill="#F97316"/><text x="965.0" y="114.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">lookup</text><path d="M1080 166.0 C1120 166.0 540 254.0 580 254.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="580" cy="254.0" r="3" fill="#F97316"/><text x="830.0" y="204.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">values+notes</text><path d="M800 254.0 C840 254.0 250 102.0 290 102.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="290" cy="102.0" r="3" fill="#F97316"/><text x="545.0" y="172.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">verified output</text><path d="M520 102.0 C560 102.0 250 294.0 290 294.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="290" cy="294.0" r="3" fill="#F97316"/><text x="405.0" y="192.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">persist</text><path d="M230 294.0 L290 294.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="290" cy="294.0" r="3" fill="#F97316"/><text x="260.0" y="288.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">benchmark</text><path d="M230 102.0 C270 102.0 810 254.0 850 254.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="850" cy="254.0" r="3" fill="#F97316"/><text x="540.0" y="172.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">voice log</text><path d="M1080 254.0 C1120 254.0 540 160.0 580 160.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="580" cy="160.0" r="3" fill="#F97316"/><text x="830.0" y="201.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">transcript</text><path d="M800 336.0 C840 336.0 540 160.0 580 160.0" fill="none" stroke="#F97316" stroke-opacity="0.65"/><circle cx="580" cy="160.0" r="3" fill="#F97316"/><text x="690.0" y="242.0" font-size="9" fill="#FDBA74" text-anchor="middle" opacity="0.9">open-weights lane</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="640" viewBox="0 0 1240 640" font-family="Segoe UI,Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#F97316"/>
+    </marker>
+    <linearGradient id="lanebg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1424"/>
+      <stop offset="1" stop-color="#0a0f1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1240" height="640" fill="#0a0f1a" rx="14"/>
+  <rect x="1" y="1" width="1238" height="638" rx="13" fill="none" stroke="#F97316" stroke-opacity="0.25"/>
+  <rect x="20" y="40" width="230" height="470" rx="12" fill="url(#lanebg)" stroke="#F97316" stroke-opacity="0.18"/>
+  <rect x="280" y="40" width="250" height="470" rx="12" fill="url(#lanebg)" stroke="#F97316" stroke-opacity="0.18"/>
+  <rect x="560" y="40" width="340" height="470" rx="12" fill="url(#lanebg)" stroke="#F97316" stroke-opacity="0.28"/>
+  <rect x="930" y="40" width="290" height="470" rx="12" fill="url(#lanebg)" stroke="#2ea44f" stroke-opacity="0.35"/>
+  <g font-size="11" font-weight="700" letter-spacing="2" fill="#FDBA74">
+    <text x="135" y="30" text-anchor="middle">CLIENT — PWA</text>
+    <text x="405" y="30" text-anchor="middle">API — VERCEL</text>
+    <text x="730" y="30" text-anchor="middle">AI — META MODELS</text>
+    <text x="1075" y="30" text-anchor="middle">CORE + DATA</text>
+  </g>
+  <g>
+    <rect x="40" y="64" width="190" height="66" rx="9" fill="#101827" stroke="#F97316" stroke-opacity="0.55"/>
+    <text x="56" y="88" font-size="12.5" font-weight="600" fill="#f0f6fc">Camera capture</text>
+    <text x="56" y="106" font-size="10" fill="#8b949e">plate photo / upload</text>
+    <rect x="40" y="170" width="190" height="66" rx="9" fill="#101827" stroke="#F97316" stroke-opacity="0.55"/>
+    <text x="56" y="194" font-size="12.5" font-weight="600" fill="#f0f6fc">Review and correct</text>
+    <text x="56" y="212" font-size="10" fill="#8b949e">segmentation overlay - one-tap fix</text>
+    <rect x="40" y="276" width="190" height="66" rx="9" fill="#101827" stroke="#F97316" stroke-opacity="0.55"/>
+    <text x="56" y="300" font-size="12.5" font-weight="600" fill="#f0f6fc">Voice log (BM / EN)</text>
+    <text x="56" y="318" font-size="10" fill="#8b949e">hold-to-talk meal entry</text>
+    <rect x="40" y="382" width="190" height="66" rx="9" fill="#101827" stroke="#F97316" stroke-opacity="0.55"/>
+    <text x="56" y="406" font-size="12.5" font-weight="600" fill="#f0f6fc">Weekly summary</text>
+    <text x="56" y="424" font-size="10" fill="#8b949e">trends + dietitian questions</text>
+  </g>
+  <g>
+    <rect x="300" y="64" width="210" height="60" rx="9" fill="#101827" stroke="#F97316" stroke-opacity="0.55"/>
+    <text x="316" y="88" font-size="12.5" font-weight="600" fill="#f0f6fc">POST /api/analyze</text>
+    <text x="316" y="106" font-size="10" fill="#8b949e">creates job - returns instantly</text>
+    <rect x="300" y="158" width="210" height="118" rx="9" fill="#0f1626" stroke="#F97316" stroke-opacity="0.75"/>
+    <text x="316" y="182" font-size="12.5" font-weight="600" fill="#FDBA74">async worker</text>
+    <text x="316" y="200" font-size="10" fill="#8b949e">pipeline orchestrator</text>
+    <text x="316" y="220" font-size="10" fill="#8b949e">segment - identify - compute</text>
+    <text x="316" y="238" font-size="10" fill="#8b949e">- explain - guardrail - store</text>
+    <text x="316" y="262" font-size="10" fill="#FDBA74" font-style="italic">LLM only where fuzzy</text>
+    <text x="316" y="276" font-size="10" fill="#FDBA74" font-style="italic">code where knowable</text>
+    <rect x="300" y="310" width="210" height="56" rx="9" fill="#101827" stroke="#F97316" stroke-opacity="0.55"/>
+    <text x="316" y="334" font-size="12.5" font-weight="600" fill="#f0f6fc">POST /api/voice</text>
+    <text x="316" y="352" font-size="10" fill="#8b949e">audio to structured meal entry</text>
+    <rect x="300" y="400" width="210" height="60" rx="9" fill="#101827" stroke="#F97316" stroke-opacity="0.55"/>
+    <text x="316" y="424" font-size="12.5" font-weight="600" fill="#f0f6fc">GET /api/weekly</text>
+    <text x="316" y="442" font-size="10" fill="#8b949e">trends + dietitian questions</text>
+  </g>
+  <g>
+    <rect x="580" y="64" width="300" height="66" rx="9" fill="#141c2e" stroke="#F97316"/>
+    <text x="596" y="88" font-size="12.5" font-weight="700" fill="#FDBA74">SAM 3.1 - segmentation</text>
+    <text x="596" y="106" font-size="10" fill="#8b949e">text-prompted: "rice" "chicken" "salad"</text>
+    <text x="596" y="121" font-size="10" fill="#8b949e">to masks - to dish crops</text>
+    <rect x="580" y="152" width="300" height="70" rx="9" fill="#141c2e" stroke="#F97316"/>
+    <text x="596" y="176" font-size="12.5" font-weight="700" fill="#FDBA74">Muse Spark 1.3 - ORCHESTRATOR</text>
+    <text x="596" y="194" font-size="10" fill="#8b949e">visual CoT food ID - plans pipeline</text>
+    <text x="596" y="209" font-size="10" fill="#8b949e">native multi-agent delegation</text>
+    <rect x="580" y="240" width="92" height="54" rx="8" fill="#0f1626" stroke="#F97316" stroke-opacity="0.6"/>
+    <text x="626" y="262" font-size="9.5" fill="#e6edf3" text-anchor="middle">food-ID</text>
+    <text x="626" y="276" font-size="9" fill="#8b949e" text-anchor="middle">vs SEA DB</text>
+    <rect x="684" y="240" width="92" height="54" rx="8" fill="#0f1626" stroke="#F97316" stroke-opacity="0.6"/>
+    <text x="730" y="262" font-size="9.5" fill="#e6edf3" text-anchor="middle">citations</text>
+    <text x="730" y="276" font-size="9" fill="#8b949e" text-anchor="middle">search+src</text>
+    <rect x="788" y="240" width="92" height="54" rx="8" fill="#0f1626" stroke="#F97316" stroke-opacity="0.6"/>
+    <text x="834" y="262" font-size="9.5" fill="#e6edf3" text-anchor="middle">notes BM/EN</text>
+    <text x="834" y="276" font-size="9" fill="#8b949e" text-anchor="middle">hedged</text>
+    <rect x="580" y="316" width="300" height="58" rx="9" fill="#141c2e" stroke="#F97316"/>
+    <text x="596" y="340" font-size="12.5" font-weight="600" fill="#f0f6fc">Muse Voice Transcribe</text>
+    <text x="596" y="358" font-size="10" fill="#8b949e">BM/EN speech to structured entry</text>
+    <rect x="580" y="396" width="300" height="58" rx="9" fill="#141c2e" stroke="#F97316" stroke-dasharray="5 4"/>
+    <text x="596" y="420" font-size="12.5" font-weight="600" fill="#FDBA74">Muse Spark Open - Fireworks</text>
+    <text x="596" y="438" font-size="10" fill="#8b949e">open-weights lane - $10K bonus flag</text>
+  </g>
+  <g>
+    <rect x="950" y="64" width="250" height="76" rx="9" fill="#0f1a12" stroke="#2ea44f"/>
+    <text x="966" y="88" font-size="12.5" font-weight="700" fill="#7ee2a8">Nutrient engine</text>
+    <text x="966" y="106" font-size="10" fill="#8b949e">deterministic TypeScript</text>
+    <text x="966" y="121" font-size="10" fill="#8b949e">DB values x portion - ZERO LLM</text>
+    <rect x="950" y="168" width="250" height="84" rx="9" fill="#0f1a12" stroke="#2ea44f"/>
+    <text x="966" y="192" font-size="12.5" font-weight="700" fill="#7ee2a8">SEA food DB - 20 verified dishes</text>
+    <text x="966" y="210" font-size="10" fill="#8b949e">sourced per-serving values</text>
+    <text x="966" y="225" font-size="10" fill="#8b949e">USDA FCD - Malaysian FCD - NKF</text>
+    <text x="966" y="240" font-size="10" fill="#FDBA74" font-style="italic">unknown stays unknown</text>
+    <rect x="950" y="280" width="250" height="66" rx="9" fill="#1a0f0d" stroke="#f85149"/>
+    <text x="966" y="304" font-size="12.5" font-weight="700" fill="#ffb3ad">Guardrail - advice-detector</text>
+    <text x="966" y="322" font-size="10" fill="#c9a8a4">classifies every sentence:</text>
+    <text x="966" y="336" font-size="10" fill="#c9a8a4">education / trend / ADVICE - refuse</text>
+    <rect x="950" y="374" width="250" height="76" rx="9" fill="#0d1117" stroke="#8b949e"/>
+    <text x="966" y="398" font-size="12.5" font-weight="600" fill="#e6edf3">Supabase</text>
+    <text x="966" y="416" font-size="10" fill="#8b949e">Postgres - meals, items, corrections</text>
+    <text x="966" y="431" font-size="10" fill="#8b949e">RLS privacy - Storage (photos)</text>
+    <rect x="950" y="478" width="250" height="56" rx="9" fill="#0d1117" stroke="#8b949e" stroke-dasharray="5 4"/>
+    <text x="966" y="500" font-size="12" font-weight="600" fill="#e6edf3">Eval harness - GH Actions</text>
+    <text x="966" y="517" font-size="10" fill="#8b949e">25-meal benchmark - accuracy CI</text>
+  </g>
+  <g fill="none" stroke="#F97316" stroke-width="1.6">
+    <path d="M230 97 H 300" marker-end="url(#arr)"/>
+    <path d="M405 124 V 158" marker-end="url(#arr)"/>
+    <path d="M510 200 C 550 200 540 97 580 97" marker-end="url(#arr)"/>
+    <path d="M730 130 V 152" marker-end="url(#arr)"/>
+    <path d="M730 222 V 240" marker-end="url(#arr)"/>
+    <path d="M880 267 C 920 267 910 100 950 100" marker-end="url(#arr)"/>
+    <path d="M1075 140 V 168" marker-end="url(#arr)"/>
+    <path d="M950 310 H 880" stroke-dasharray="5 4" stroke="#f85149" marker-end="url(#arr)"/>
+    <path d="M230 309 H 300" marker-end="url(#arr)"/>
+    <path d="M405 366 V 380 C 405 400 500 345 580 345" marker-end="url(#arr)"/>
+    <path d="M730 374 V 396" marker-end="url(#arr)"/>
+  </g>
+  <g font-size="9" fill="#FDBA74" text-anchor="middle">
+    <text x="265" y="92">photo</text>
+    <text x="420" y="146">job</text>
+    <text x="545" y="145">crops</text>
+    <text x="742" y="236">fan-out</text>
+    <text x="915" y="258">dish names</text>
+    <text x="1012" y="160">lookup</text>
+    <text x="912" y="300">notes check</text>
+    <text x="265" y="304">audio</text>
+    <text x="470" y="372">transcript</text>
+    <text x="742" y="390">lane</text>
+  </g>
+  <rect x="20" y="560" width="1200" height="54" rx="10" fill="#1a0f0d" stroke="#F97316" stroke-opacity="0.5"/>
+  <text x="40" y="583" font-size="11.5" font-weight="700" fill="#FDBA74">COMPLIANCE BY CONSTRUCTION</text>
+  <text x="40" y="601" font-size="10.5" fill="#c9a8a4">Documentation tool, not medical advice - deterministic math only - cited generic values - every summary ends with dietitian questions - guardrail refuses advice-shaped output - disclaimer on every screen</text>
+  <g font-size="9.5" fill="#8b949e">
+    <rect x="980" y="8" width="12" height="12" rx="3" fill="#141c2e" stroke="#F97316"/><text x="998" y="18">Meta AI</text>
+    <rect x="1064" y="8" width="12" height="12" rx="3" fill="#0f1a12" stroke="#2ea44f"/><text x="1082" y="18">Deterministic</text>
+    <rect x="1160" y="8" width="12" height="12" rx="3" fill="#1a0f0d" stroke="#f85149"/><text x="1178" y="18">Safety</text>
+  </g>
+</svg>

@@ -11,7 +11,9 @@
 
 ---
 
-## The problem
+#---
+
+# The problem
 
 More than **5 million Malaysians** live with chronic kidney disease (CKD), and **51,000+ are
 already on dialysis** — projected to pass **106,000 by 2040** (Galen Centre, 2024). Diabetes
@@ -36,6 +38,8 @@ dishes or return nothing. Patients guess. Dietitians start from zero every visit
 6. **Prepare the conversation.** A weekly summary that ends with questions for the dietitian —
    never instructions.
 
+---
+
 ## Compliance-first (the core design decision)
 
 RenalRadar is a **documentation and literacy tool**, not a medical advisor. That distinction is
@@ -50,20 +54,28 @@ enforced in code, not prose:
 
 See [COMPLIANCE.md](./COMPLIANCE.md) for the full contract.
 
+---
+
 ## Architecture
 
-<a href="docs/architecture.svg"><img src="docs/architecture.svg" alt="RenalRadar architecture — SAM 3.1 segmentation, Muse Spark orchestration, deterministic nutrient engine, guardrail" width="100%"></a>
+<p align="center">
+  <a href="docs/architecture.svg"><img src="docs/architecture.svg" alt="RenalRadar architecture" width="100%"></a>
+</p>
 
 *Editable source: [docs/architecture.drawio](docs/architecture.drawio) — open in diagrams.net.*
 
 **Principles:** deterministic separate from generative · refusal paths over guesses ·
 provenance on every value · user corrections are first-class data.
 
+---
+
 ## Screens (7)
 
 Camera capture · Review & correct (segmentation overlay) · Nutrient breakdown + citations ·
 Voice log (BM/EN) · Food history · Weekly summary + dietitian questions · Settings (language,
 disclaimer, data export).
+
+---
 
 ## Stack
 
