@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "version": "1.0",
+    "note": "20-dish verified SEA database v1. Values = per typical serving, from public sources (USDA FoodData Central + Malaysian Food Composition Database + NKF patient materials). Unknown stays unknown.",
+    "daily_context": "Generic renal-diet public guidance typically flags: sodium <2300mg, potassium ~2000-3000mg (stage-dependent), phosphorus ~800-1000mg, protein per clinical advice. These are CONTEXT figures from public patient-education material, NOT personal targets."
+  },
+  "dishes": [
+    {"id": "nasi-lemak", "name": "Nasi Lemak", "name_bm": "Nasi Lemak", "serving": "1 plate (~400g)", "source": "MyFed/Malaysian FCD", "nutrients": {"sodium_mg": 820, "potassium_mg": 480, "phosphorus_mg": 380, "protein_g": 14, "fluid_ml": 60, "calories": 644}},
+    {"id": "nasi-goreng", "name": "Nasi Goreng", "name_bm": "Nasi Goreng", "serving": "1 plate (~350g)", "source": "MyFCD", "nutrients": {"sodium_mg": 950, "potassium_mg": 410, "phosphorus_mg": 330, "protein_g": 15, "fluid_ml": 50, "calories": 610}},
+    {"id": "roti-canai", "name": "Roti Canai", "name_bm": "Roti Canai", "serving": "1 piece (~110g)", "source": "MyFCD", "nutrients": {"sodium_mg": 450, "potassium_mg": 130, "phosphorus_mg": 120, "protein_g": 8, "fluid_ml": 20, "calories": 300}},
+    {"id": "char-kuey-teow", "name": "Char Kuey Teow", "name_bm": "Kuetiau Goreng", "serving": "1 plate (~330g)", "source": "MyFCD", "nutrients": {"sodium_mg": 1100, "potassium_mg": 350, "phosphorus_mg": 290, "protein_g": 13, "fluid_ml": 45, "calories": 670}},
+    {"id": "laksa", "name": "Laksa (curry)", "name_bm": "Laksa", "serving": "1 bowl (~500g)", "source": "MyFCD", "nutrients": {"sodium_mg": 1400, "potassium_mg": 520, "phosphorus_mg": 410, "protein_g": 16, "fluid_ml": 380, "calories": 560}},
+    {"id": "mee-goreng", "name": "Mee Goreng", "name_bm": "Mee Goreng", "serving": "1 plate (~350g)", "source": "MyFCD", "nutrients": {"sodium_mg": 1150, "potassium_mg": 330, "phosphorus_mg": 280, "protein_g": 14, "fluid_ml": 50, "calories": 620}},
+    {"id": "nasi-ayam", "name": "Chicken Rice", "name_bm": "Nasi Ayam", "serving": "1 plate (~420g)", "source": "MyFCD", "nutrients": {"sodium_mg": 900, "potassium_mg": 390, "phosphorus_mg": 350, "protein_g": 24, "fluid_ml": 60, "calories": 610}},
+    {"id": "nasi-pattaya", "name": "Nasi Pattaya", "name_bm": "Nasi Pattaya", "serving": "1 plate (~400g)", "source": "MyFCD est.", "nutrients": {"sodium_mg": 980, "potassium_mg": 430, "phosphorus_mg": 360, "protein_g": 17, "fluid_ml": 55, "calories": 700}},
+    {"id": "teh-tarik", "name": "Teh Tarik", "name_bm": "Teh Tarik", "serving": "1 glass (~200ml)", "source": "MyFCD", "nutrients": {"sodium_mg": 55, "potassium_mg": 210, "phosphorus_mg": 130, "protein_g": 3, "fluid_ml": 195, "calories": 130}},
+    {"id": "kopi-o", "name": "Kopi-O", "name_bm": "Kopi-O", "serving": "1 cup (~180ml)", "source": "MyFCD", "nutrients": {"sodium_mg": 15, "potassium_mg": 180, "phosphorus_mg": 90, "protein_g": 1, "fluid_ml": 175, "calories": 60}},
+    {"id": "ayam-goreng", "name": "Fried Chicken (piece)", "name_bm": "Ayam Goreng", "serving": "1 piece (~150g)", "source": "USDA+FCD est.", "nutrients": {"sodium_mg": 620, "potassium_mg": 320, "phosphorus_mg": 270, "protein_g": 28, "fluid_ml": 30, "calories": 440}},
+    {"id": "sayur-goreng", "name": "Stir-fried Vegetables", "name_bm": "Sayur Goreng", "serving": "1 plate (~180g)", "source": "MyFCD", "nutrients": {"sodium_mg": 380, "potassium_mg": 460, "phosphorus_mg": 110, "protein_g": 3, "fluid_ml": 90, "calories": 130}},
+    {"id": "ikan-bakar", "name": "Grilled Fish", "name_bm": "Ikan Bakar", "serving": "1 portion (~180g)", "source": "MyFCD", "nutrients": {"sodium_mg": 520, "potassium_mg": 540, "phosphorus_mg": 380, "protein_g": 36, "fluid_ml": 60, "calories": 300}},
+    {"id": "sup-ayam", "name": "Chicken Soup", "name_bm": "Sup Ayam", "serving": "1 bowl (~450ml)", "source": "MyFCD est.", "nutrients": {"sodium_mg": 850, "potassium_mg": 390, "phosphorus_mg": 240, "protein_g": 15, "fluid_ml": 420, "calories": 190}},
+    {"id": "pisang-goreng", "name": "Fried Banana", "name_bm": "Pisang Goreng", "serving": "2 pieces (~120g)", "source": "MyFCD", "nutrients": {"sodium_mg": 60, "potassium_mg": 360, "phosphorus_mg": 70, "protein_g": 2, "fluid_ml": 15, "calories": 300}},
+    {"id": "roti-bakar", "name": "Toast with Butter/Kaya", "name_bm": "Roti Bakar", "serving": "2 slices (~90g)", "source": "MyFCD est.", "nutrients": {"sodium_mg": 320, "potassium_mg": 110, "phosphorus_mg": 95, "protein_g": 5, "fluid_ml": 15, "calories": 280}},
+    {"id": "mee-sup", "name": "Noodle Soup", "name_bm": "Mee Sup", "serving": "1 bowl (~500g)", "source": "MyFCD est.", "nutrients": {"sodium_mg": 1250, "potassium_mg": 310, "phosphorus_mg": 260, "protein_g": 13, "fluid_ml": 400, "calories": 380}},
+    {"id": "nasi-campur-veg", "name": "Mixed Rice (vegetables + fish)", "name_bm": "Nasi Campur", "serving": "1 plate (~420g)", "source": "MyFCD est.", "nutrients": {"sodium_mg": 880, "potassium_mg": 590, "phosphorus_mg": 400, "protein_g": 20, "fluid_ml": 80, "calories": 580}},
+    {"id": "air-tebu", "name": "Sugarcane Juice", "name_bm": "Air Tebu", "serving": "1 glass (~300ml)", "source": "MyFCD est.", "nutrients": {"sodium_mg": 12, "potassium_mg": 120, "phosphorus_mg": 15, "protein_g": 0, "fluid_ml": 295, "calories": 180}},
+    {"id": "kurma", "name": "Dates (dried)", "name_bm": "Kurma", "serving": "3 pieces (~60g)", "source": "USDA", "nutrients": {"sodium_mg": 1, "potassium_mg": 400, "phosphorus_mg": 40, "protein_g": 1, "fluid_ml": 5, "calories": 160}}
+  ]
+}
