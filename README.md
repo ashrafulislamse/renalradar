@@ -52,24 +52,9 @@ See [COMPLIANCE.md](./COMPLIANCE.md) for the full contract.
 
 ## Architecture
 
-```
-Phone camera ──► Next.js PWA (Vercel)
-                   │ POST /api/analyze ──► job row (Supabase)
-                   ▼                (async — no timeout risk)
-             SAM 3.1 ──── text-prompted segmentation ──► dish crops
-                   ▼
-             Muse Spark 1.3 ── visual CoT dish identification vs SEA food DB
-                   ▼
-       Nutrient engine (pure TypeScript — DB values × portion, zero LLM)
-                   ▼
-       Explanation + citation layer (built-in search-with-citations, BM/EN)
-                   ▼
-       Guardrail pass ── advice-detector: rewrite or refuse
-                   ▼
-       Supabase ── meals · items · corrections · weekly summaries (RLS)
-       Voice lane: MediaRecorder ──► Muse Voice Transcribe ──► structured entry
-       Eval harness: 25-meal benchmark in CI ──► accuracy report on every push
-```
+<a href="docs/architecture.svg"><img src="docs/architecture.svg" alt="RenalRadar architecture — SAM 3.1 segmentation, Muse Spark orchestration, deterministic nutrient engine, guardrail" width="100%"></a>
+
+*Editable source: [docs/architecture.drawio](docs/architecture.drawio) — open in diagrams.net.*
 
 **Principles:** deterministic separate from generative · refusal paths over guesses ·
 provenance on every value · user corrections are first-class data.
