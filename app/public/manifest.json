@@ -1,0 +1,17 @@
+{
+  "name": "Renal Radar — meal documentation for kidney patients",
+  "short_name": "Renal Radar",
+  "description": "Camera-and-voice meal documentation for kidney patients in Southeast Asia. Documentation, never advice.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1a",
+  "theme_color": "#F97316",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
